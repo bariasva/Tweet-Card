@@ -1,5 +1,6 @@
 .card {
     background-color: #010101;
+    border: 1px solid #35373a;
     border-radius: 7px;
     display: flex;
     flex-wrap: wrap;
@@ -11,18 +12,23 @@
 .userInfo {
     display: flex;
     width: auto;
-    align-items: center;
+    height: 7vh;
+    align-items: top;
     font-size: medium;
-    margin-left: 100px;
+    margin-left: 1vw;
+    margin-top: 3.5vh;
 }
 
 .userInfo h2 {
     margin-right: 1vw;
     font-size: medium;
+    margin-left: 1vw;
+    margin-bottom: 0;
+    height: 25px;
 }
 
 .userInfo a {
-    color: #FFFF;
+    color: #e5e7e8;
     text-decoration: none;
 }
 
@@ -32,12 +38,15 @@
 
 .userInfo p {
     width: auto;
+    height: 25px;
     color: #35373a;
+    margin-bottom: 0;
 }
 
 .userInfo p a {
     color: #35373a;
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 .pp {
@@ -45,4 +54,17 @@
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+
+.interactions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}
+
+.interactions div {
+    display: flex;
 }
