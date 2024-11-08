@@ -1,11 +1,11 @@
 .card {
     background-color: #010101;
-    padding: 1% 21%;
     border-radius: 7px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
+    width: 65vw;
 }
 
 .userInfo {
@@ -13,6 +13,7 @@
     width: auto;
     align-items: center;
     font-size: medium;
+    margin-left: 100px;
 }
 
 .userInfo h2 {
@@ -32,4 +33,16 @@
 .userInfo p {
     width: auto;
     color: #35373a;
+}
+
+.userInfo p a {
+    color: #35373a;
+    text-decoration: none;
+}
+
+.pp {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
 }

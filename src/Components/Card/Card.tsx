@@ -1,20 +1,21 @@
+import TweetContent from '../TweetContent/TweetContent';
+import UserInfo from '../TweetUsserInfo/TweetUserInfo';
 import './Card.css'
 
 export interface Props {
-    title: string;
-    paragraph: string;
+    name: string;
+    username: string;
+    content: string;
+    profile: string;
     children?: React.ReactNode;
 }
 
-
-export default function Card({title, paragraph, children}: Props) {
+export default function Card({name, username, content, profile} : Props) {
     return (
         <>
             <div className="card">
-                <div className='userInfo'>
-                    <h2><a href='#'>{title}</a></h2>
-                    <p>{paragraph}</p>
-                </div>
+                <UserInfo profile={profile} name={name} username={username}/>
+                <TweetContent content={content}/>
             </div>
         </>
     )
