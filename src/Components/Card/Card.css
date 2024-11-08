@@ -1,0 +1,35 @@
+.card {
+    background-color: #010101;
+    padding: 1% 21%;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.userInfo {
+    display: flex;
+    width: auto;
+    align-items: center;
+    font-size: medium;
+}
+
+.userInfo h2 {
+    margin-right: 1vw;
+    font-size: medium;
+}
+
+.userInfo a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.userInfo h2:hover {
+    text-decoration: underline;
+}
+
+.userInfo p {
+    width: auto;
+    color: #35373a;
+}
